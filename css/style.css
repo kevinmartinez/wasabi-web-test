@@ -1,0 +1,122 @@
+/*
+Wasabi Web Back-End Test
+Created by Kevin Martinez jan 19 2016
+============================== */
+html {
+  /* setting root font size to use rem unit */
+  font-size: 16px;
+}
+
+body {
+  background: #34495e;
+  font-family: 'Lato', sans-serif;
+  box-sizing: border-box;
+}
+
+.container {
+  background: #ecf0f1;
+  max-width: 350px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+}
+
+input, textarea, select, button {
+  width: 150px;
+  margin: 0;
+  -webkit-box-sizing: border-box; /* For legacy WebKit based browsers */
+  -moz-box-sizing: border-box; /* For legacy (Firefox <29) Gecko based browsers */
+  box-sizing: border-box;
+}
+
+/* TODO: remove in production */
+h1 {
+  text-align: center;
+}
+
+.social-login-fs,
+.user-login-fs,
+.get-pass-fs {
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.user-login-fs {
+  border-top: 2px solid #bdc3c7;
+}
+
+.get-pass-fs p {
+  font-size: 0.9rem;
+  color: #34495e;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #cfd1d3; /* ie8 fallback for rgba */
+  border-bottom: 1px solid rgba(189, 195, 199, 0.5);
+}
+
+.or-legend {
+  text-align: center;
+  color: #bdc3c7;
+}
+
+/* visually hidden instead of display: none because display: none removes it from screen readers as well */
+.get-pass-legend {
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+
+label {
+  color: #22313f;
+  font-weight: 700;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+}
+
+.inner-container {
+  width: 80%;
+  margin: 0 auto 20px;
+}
+
+input {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding: 8px;
+}
+
+a {
+  text-decoration: none;
+  color: #95a5a6;
+  font-size: 0.8rem;
+}
+
+.btn {
+  padding: 10px;
+  background: #47c29f;
+  border-style: none;
+  color: #ecf0f1;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.action-btn {
+  width: 100%;
+  margin-bottom: 5px;
+  border-radius: 4px;
+}
+
+.link-btn {
+  width: 100%;
+}
+
+.get-pass-btn {
+  margin-bottom: 25px;
+}
