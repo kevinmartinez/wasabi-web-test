@@ -85,6 +85,11 @@ label {
   margin: 0 auto 20px;
 }
 
+input,
+a {
+  font-size: 0.7rem;
+}
+
 input {
   width: 100%;
   margin-top: 5px;
@@ -95,7 +100,6 @@ input {
 a {
   text-decoration: none;
   color: #95a5a6;
-  font-size: 0.8rem;
 }
 
 .btn {
@@ -105,6 +109,7 @@ a {
   color: #ecf0f1;
   text-transform: uppercase;
   font-weight: 700;
+  font-size: 0.8rem;
 }
 
 .action-btn {
