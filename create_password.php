@@ -8,6 +8,7 @@ $title= "Create new password";
 <head>
     <meta charset="UTF-8">
     <title><?php echo $title ?></title>
+    <link rel="stylesheet" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
 </head>
