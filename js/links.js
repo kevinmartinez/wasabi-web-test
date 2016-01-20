@@ -12,12 +12,12 @@
     if (isMember === null) {
       // assign a href when element is clicked
       notMemberBtn.onclick = function () {
-        document.location.href = "sign_up.php";
+        document.location.href = "sign_up.html";
       };
     } else {
       //For the ALREADY MEMBER button
       isMember.onclick = function () {
-        document.location.href="index.php";
+        document.location.href="index.html";
       };
     }
 }());
