@@ -1,0 +1,9 @@
+{
+  "firebase": "wasabi-test",
+  "public": "public",
+  "ignore": [
+    "firebase.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
