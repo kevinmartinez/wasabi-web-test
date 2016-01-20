@@ -1,0 +1,29 @@
+{
+  "name": "back-end-test",
+  "version": "1.0.0",
+  "description": "Back End Test Wasabi Web",
+  "main": "index.js",
+  "scripts": {
+    "start": "node_modules/.bin/supervisor app",
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinmartinez/wasabi-web-test.git"
+  },
+  "keywords": [
+    "back-end",
+    "firebase",
+    "javascript",
+    "test"
+  ],
+  "author": "kevin martinez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinmartinez/wasabi-web-test/issues"
+  },
+  "homepage": "https://github.com/kevinmartinez/wasabi-web-test#readme",
+  "devDependencies": {
+    "mocha": "^2.3.4"
+  }
+}
