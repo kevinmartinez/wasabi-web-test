@@ -8,7 +8,7 @@ fbBtn.addEventListener('click', function() {
     if (error) {
       console.log("Login Failed!", error);
     } else {
-      // We'll never get here, as the page will redirect on success.
+      // redirects on success but need to check up Oauth.
     }
   });
 });
