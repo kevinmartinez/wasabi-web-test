@@ -60,9 +60,15 @@ h1 {
   border-bottom: 1px solid rgba(189, 195, 199, 0.5);
 }
 
+
+
 .or-legend {
+  color: #95a5a6;
+}
+
+legend {
+  width: 100%;
   text-align: center;
-  color: #bdc3c7;
 }
 
 /* visually hidden instead of display: none because display: none removes it from screen readers as well */
@@ -110,6 +116,12 @@ a {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 0.8rem;
+}
+
+.fb-button {
+  background: #3B5998;
+  width: 100%;
+  margin: 10px 0;
 }
 
 .action-btn {
